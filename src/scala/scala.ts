@@ -4,7 +4,7 @@ export interface ScalaOptions extends java.JavaProjectOptions { }
 
 /**
  *
- * @pjid zaiScala
+ * @pjid scala
  **/
 
 export class Scala extends java.JavaProject {
