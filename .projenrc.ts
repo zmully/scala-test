@@ -7,7 +7,8 @@ const project = new cdk.JsiiProject({
   packageManager: javascript.NodePackageManager.NPM,
   projenrcTs: true,
   repositoryUrl: 'https://github.com/zack.mully/scala-test.git',
-
+  github: false,
+  peerDeps: ['projen'],
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
   // devDeps: [],             /* Build dependencies for this module. */
